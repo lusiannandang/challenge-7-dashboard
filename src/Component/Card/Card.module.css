@@ -1,0 +1,139 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin    : 24px;
+  width: 351px;
+  height: 482px;
+
+  background: #ffffff;
+
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.cardDetailContainer {
+  width: 303px;
+  height: 362px;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 303px;
+  height: 222px;
+
+  margin-top: 24px;
+}
+
+.detailPoint {
+  display: flex;
+  align-items: center;
+}
+
+.detailContainer {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 16px;
+}
+
+.detailContainer h6 {
+  width: 303px;
+  height: 20px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #000000;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.detailContainer h5 {
+  width: 303px;
+  height: 24px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #000000;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+.detailPoint {
+  margin-bottom: 16px;
+}
+
+.detailPoint p {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #000000;
+  margin-top: 0px;
+  margin-left: 8px;
+  margin-bottom: 0px;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 303px;
+  height: 48px;
+
+  margin-top: 50px;
+}
+
+.deleteButton {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 143.5px;
+  height: 48px;
+  background: #ffffff;
+
+  border: 1px solid #fa2c5a;
+  border-radius: 2px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #fa2c5a;
+}
+
+.editButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 143.5px;
+  height: 48px;
+
+  background: #5cb85f;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
